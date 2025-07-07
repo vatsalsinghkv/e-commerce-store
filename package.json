@@ -7,15 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome check ./src",
-    "lint:fix": "biome check --write ./src && format",
+    "lint:fix": "biome check --write ./src",
     "typecheck": "tsc --noEmit --incremental false",
     "format": "biome format --write ./src",
-    "format:check": "biome format ."
+    "format:check": "biome format .",
+    "prepare": "husky"
   },
   "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.5",

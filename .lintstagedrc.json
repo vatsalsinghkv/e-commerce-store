@@ -1,0 +1,6 @@
+{
+  "**/*.{js,jsx,ts,tsx,json,css,scss,md,webmanifest}": [
+    "biome check ./src --write",
+    "biome check ./src"
+  ]
+}
