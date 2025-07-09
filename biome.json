@@ -9,9 +9,7 @@
     "lineEnding": "lf",
     "lineWidth": 80,
     "attributePosition": "auto",
-    "bracketSpacing": true,
-    "bracketSameLine": false,
-    "expand": "auto"
+    "bracketSpacing": true
   },
   "linter": {
     "enabled": true,
@@ -20,9 +18,7 @@
       "complexity": {
         "noExtraBooleanCast": "error",
         "noUselessCatch": "error",
-        "noUselessTypeConstraint": "error",
-        "noAdjacentSpacesInRegex": "error",
-        "noUselessEscapeInRegex": "error"
+        "noUselessTypeConstraint": "error"
       },
       "correctness": {
         "noConstAssign": "error",
@@ -51,7 +47,6 @@
         "useYield": "error"
       },
       "style": {
-        "noCommonJs": "error",
         "noNamespace": "error",
         "useAsConstAssertion": "error",
         "useBlockStatements": "off"
@@ -87,7 +82,7 @@
         "useNamespaceKeyword": "error"
       },
       "nursery": {
-        "useSortedClasses": "error"
+        "useSortedClasses": "off"
       }
     }
   },
